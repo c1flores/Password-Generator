@@ -25,11 +25,11 @@ var specialChar = [array of special characters]
 
 ```
 Function: prompts() 
-    VARIABLE INITIALIZATION: var valid = variable that will ensure user responses are valid
+    VARIABLE INITIALIZATION: var isCleared = variable that will ensure user responses are valid
 
-    EXECUTE: Do several acceptance criteria popup prompts and initialize "responses" object to set properties
+    EXECUTE: Do several acceptance criteria popup prompts and initialize "responses" object 
                 while acceptance critera area met 
-                    return "responses" object 
+                    return "responses" object with updated properties
              
              If length is not met 
                 alert user to follow length guidelines
@@ -43,8 +43,8 @@ Function: prompts()
 
 ```
 Function: generatePassword()
-    VARIABLE INITIALIZATION: var passwordChoices = function call to reference object in following conditional statement
-                             var possibleCombination = empty array to use to store possible characters in following conditional statement
+    VARIABLE INITIALIZATION: var passwordChoices = function call to reference "responses" object 
+                             var possibleCombination = empty array to use to store possible characters 
                              var securePassword = empty string to iterate over in final for loop
 
     Execute:  If user selects to include numbers in password
