@@ -32,8 +32,11 @@ function prompts() {
    
     if((passwordLength < 8) || (passwordLength > 128))
     alert('Please choose between 8 and 128 characters');
+
     else if((!lowerCase) && (!upperCase) && (!numeric) && (!special))
+
     alert('Please choose at least one character type to encrypt password');
+    
     else 
     isCleared = true;
 
@@ -43,9 +46,55 @@ function prompts() {
 
 
   // Function that does work of converging user responses and making a secure password that aligns with their preferences
-  function generatePassword() {
+
+  // This function was adapted from Ramesh Fadatare's generateX() function in "JavaScript Project = Password Generator" source code example at url: https://www.sourcecodeexamples.net/2020/09/javascript-project-password-generator.html
   
-  }
+  function generatePassword() {
+    var passwordChoices = prompts();
+    var passwordCombination = [];
+    var securePassword = "";
+    
+    if(passwordChoices.lowerCase) {
+
+      for (var i of lowerChar)
+        passwordCombination.push(i);
+
+    }
+
+    if(passwordChoices.upperCase) {
+
+      for (var i of upperChar)
+        passwordCombination.push(i);
+
+    }
+
+    if(passwordChoices.numeric) {
+
+      for (var i of numbers)
+        passwordCombination.push(i);
+        
+    }
+
+    if(passwordChoices.special) {
+
+      for (var i of specialChar)
+        passwordCombination.push(i);
+
+    }
+  
+    console.log(passwordCombination);
+
+    for (var i = 0; i < passwordChoices.passwordLength; i++ ) {
+
+    securePassword += passwordCombination[Math.floor(Math.random() * passwordChoices.length)];
+
+    }
+
+    console.log(securePassword);
+
+    return securePassword;
+}
+  
   
 
 // DOM transversal code for browser interpreter to replace passwordText with value generated after program runs
