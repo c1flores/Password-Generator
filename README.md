@@ -7,8 +7,8 @@ Passwords provide the first line of defense against unauthorized access to your 
 ## How did I refactor the codebase for this particular assigment?
 With dynamically updated HTML and CSS provided, I simply used JavaScript logic to enable the interface in generating a secure password for the user.  
 
-## Link to Deployed Application
-(To do)
+## Live Application
+[Deployed Application Link](https://c1flores.github.io/Password-Generator/)
 
 ## Screen Capture
 ![challenge_3_gif](https://user-images.githubusercontent.com/81927296/185214037-09f70327-e924-473b-8f3a-d16d14666c51.gif)
