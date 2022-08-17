@@ -10,5 +10,5 @@ With dynamically updated HTML and CSS provided, I simply used JavaScript logic t
 ## Link to Deployed Application
 (To do)
 
-## Screenshots 
-(To do)
+## Screen Capture
+![challenge_3_gif](https://user-images.githubusercontent.com/81927296/185214037-09f70327-e924-473b-8f3a-d16d14666c51.gif)
