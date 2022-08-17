@@ -25,14 +25,17 @@ var specialChar = [array of special characters]
 
 ```
 Function: prompts() 
-    VARIABLE INITIALIZATION: var isCleared = variable that will ensure user responses are valid
+
+    Variable Initialization: var isCleared = variable that will ensure user responses are valid
 
     EXECUTE: Do several acceptance criteria popup prompts and initialize "userCriteria" object 
                 
              If length is not met 
                 alert user to follow length guidelines
+
              Else if all character criteria are bypassed
                 alert user to choose at least one criteria type
+
              Else 
                 change isCleared variable to indicate that criteria has been met
 
@@ -44,23 +47,38 @@ Function: prompts()
 
 ```
 Function: generatePassword()
-    VARIABLE INITIALIZATION: var passwordChoices = function call to reference "userCriteria" object 
-                             var possibleCombination = empty array to use to store possible characters 
-                             var securePassword = empty string to iterate over in final for loop
 
-    Execute:  If user selects to include numbers in password
-                 push one entry from appendix numbers array into empty possibleCombination array
+    Variable Initialization: 
+    
+            var passwordChoices = function call to reference "userCriteria" object 
+            var possibleCombination = empty array to use to store possible characters 
+            var securePassword = empty string to iterate over in final for loop
+
+    Execute:  
+
               If user selects to include lowercase characters in password
-                 push one entry from appendix lowerChar array into empty possibleCombination array
+                 for each index in appendix lowerChar array
+                   push entry into empty possibleCombination array
+
               If user selects to include uppercase characters in password
-                 push one entry from appendix upperChar array into empty possibleCombination array
+                 for each index in appendix upperChar array
+                   push entry into empty possibleCombination array
+
+               If user selects to include numbers in password
+                 for each index in appendix numbers array
+                   push entry into empty possibleCombination array
+
+
               If user selects to include special characters in password
-                 push one entry into from appendix special cahracters array into empty possibleCombination array
+                 for each index in appendix specialChar array
+                   push entry into empty possibleCombination array
 
-            For the span of user-specified length 
-                add entry from possibleCombination array into securePassword string
+             For the span of user-specified length 
+                 add entry from possibleCombination array to securePassword string
 
-                return securePassword string
+               return securePassword string
+
+END
 ```     
 
 

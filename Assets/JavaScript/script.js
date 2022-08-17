@@ -86,7 +86,7 @@ function prompts() {
 
     for (var i = 0; i < passwordChoices.passwordLength; i++ ) {
 
-    securePassword += passwordCombination[Math.floor(Math.random() * passwordChoices.length)];
+    securePassword += passwordCombination[Math.floor(Math.random() * passwordCombination.length)];
 
     }
 
