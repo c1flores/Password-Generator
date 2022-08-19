@@ -10,7 +10,7 @@ var numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var specialChar = ['!', '"', '#', '$', "%", '&', "'", '(', ')', '*', ',', '-', '+', '.', '/', ':', ';', ',', '=', '>', '?', '@', '[', ']', '^', '_', '{', '}',
 '~', '`'];
 
-// Function to prompt acceptance critera and return updated object values for future referece
+// Function to prompt acceptance critera and return updated object values for future reference
 function prompts() {
   var isCleared= false;
   do {
