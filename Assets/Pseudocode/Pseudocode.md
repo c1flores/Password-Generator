@@ -68,7 +68,6 @@ Function: generatePassword()
                  for each index in appendix numbers array
                    push entry into empty possibleCombination array
 
-
               If user selects to include special characters in password
                  for each index in appendix specialChar array
                    push entry into empty possibleCombination array
