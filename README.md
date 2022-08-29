@@ -4,7 +4,7 @@ This repository is an exhibition of a generic password creator. The generator pr
 ## Why do strong passwords matter?
 Passwords provide the first line of defense against unauthorized access to your computer and personal information. The stronger your password, the more protected your computer will be from hackers and malicious software.
 
-## How did I refactor the codebase for this particular assigment?
+## How did I refactor the codebase for this particular assignment?
 With dynamically updated HTML and CSS provided, I simply used JavaScript logic to enable the interface in generating a secure password for the user.  
 
 ## Live Application
