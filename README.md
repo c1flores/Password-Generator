@@ -4,9 +4,6 @@ This repository is an exhibition of a generic password creator. The generator pr
 ## Why do strong passwords matter?
 Passwords provide the first line of defense against unauthorized access to your computer and personal information. The stronger your password, the more protected your computer will be from hackers and malicious software.
 
- ## Live Application
-[Deployed Application Link](https://c1flores.github.io/Password-Generator/)
-
 ## Technologies Used
 <div style="display: inline_block"><br>
   <img height="40" align="center" alt="Chris-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -21,3 +18,6 @@ Passwords provide the first line of defense against unauthorized access to your 
 
 ## Screen Capture
 ![challenge_3_gif](https://user-images.githubusercontent.com/81927296/185214037-09f70327-e924-473b-8f3a-d16d14666c51.gif)
+
+ ## Live Application
+[Deployed Application Link](https://c1flores.github.io/Password-Generator/)
