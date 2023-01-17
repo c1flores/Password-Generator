@@ -1,4 +1,16 @@
+
+<!-- omit in toc -->
 # Password-Generator
+
+<!-- omit in toc -->
+## Table of Contents
+- [Overview](#overview)
+- [Why do Strong Passwords Matter?](#why-do-strong-passwords-matter)
+- [Technologies Used](#technologies-used)
+- [Screen Capture](#screen-capture)
+- [Live Application](#live-application)
+
+## Overview
 This repository is an exhibition of a generic password creator. The generator prompts the user to configure a set of requirements before receiving a strong password. A minimum length is required alongside one of four other critical requirements such as the presence of lowercase, uppercase, numeric, and/or special characters.
 
 ## Why do Strong Passwords Matter?
